@@ -32,7 +32,7 @@
 
 <script>
 import { Swiper, SwiperItem } from 'vue-h5-swiper'
-import Device from './device'
+import Device from './Device.vue'
 
 const PAGE_TRANSITIONS = [
   'move',

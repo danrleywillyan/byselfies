@@ -24,6 +24,7 @@
   height: 630px
   padding: 16px
   overflow: hidden
+  align-content: center
   & > div
     transform: scale(0.7)
     transform-origin: top left
