@@ -3,11 +3,9 @@
     <v-toolbar app>
       <v-toolbar-title class="headline text-uppercase">
         <span>BySelfie </span>
-        <span class="font-weight-light">Conectando Você</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn
-        flat
         href="https://play.google.com/store/apps/details?id=com.byselfies.byselfies"
         target="_blank"
       >
@@ -18,6 +16,9 @@
     <v-content>
       <HelloWorld/>
     </v-content>
+    <v-content>
+      <Conditions/>
+    </v-content>
     <Footer/>
   </v-app>
 </template>
@@ -25,12 +26,14 @@
 <script>
 import HelloWorld from './components/HelloWorld'
 import Footer from './components/Footer'
+import Conditions from './components/Conditions'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    Footer
+    Footer,
+    Conditions
   },
   data () {
     return {

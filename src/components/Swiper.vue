@@ -17,7 +17,14 @@
       </swiper-item>
       <swiper-item>
           <v-img
-              :src="require('../assets/screen2.png')"
+              :src="require('../assets/screen2.jpeg')"
+              class="my-3"
+              contain
+          ></v-img>
+      </swiper-item>
+      <swiper-item>
+          <v-img
+              :src="require('../assets/screen3.jpeg')"
               class="my-3"
               contain
           ></v-img>

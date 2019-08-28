@@ -10,9 +10,9 @@
           :src="require('../assets/logo.webp')"
           class="my-3"
           contain
-          height="100"
+          height="120"
         ></v-img>
-        <div class="display-3 font-weight-medium">
+        <div class="display-2 font-weight-medium text-md-center">
           Fazer Amigos,
           Conquistar Emprego,
           Ganhar Dinheiro!
